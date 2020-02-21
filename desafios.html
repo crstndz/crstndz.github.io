@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon32.png?h=f210f4c4201ffbfefcdf00eb37b2129e">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=98ecef82460f7d0b03fb2ee074748d83">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=dce5a055d6a9e5c45d3d1d3a674bae0c">
+</head>
+
+<body id="page-top">
+    <div class="container-fluid">
+        <nav class="navbar navbar-light navbar-expand-md sticky-top bg-white">
+            <div class="container-fluid"><a class="navbar-brand" href="index.html"><img src="assets/img/tekinLogo.png?h=69a6e73fe030ec99936799b67677cbc3" style="width: 100px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"></li>
+                    </ul>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="equipos.html"><button class="btn btn-outline-primary btn-tekinapp" type="button">Volver</button></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html"><button class="btn btn-outline-primary btn-tekinapp" data-toggle="modal" data-target="#signup" type="button">Cerrar Sesión</button></a></li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    </div>
+    <section id="portfolio" class="content-section" style="padding-top: 50px;">
+        <div class="container">
+            <div class="content-section-heading text-center">
+                <h3 class="text-secondary mb-0">Seguimiento</h3>
+                <h4 class="text-secondary mb-0">Equipo #1</h4>
+                <h2 class="mb-5">Etapas</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#" data-toggle="modal" data-target="#desafio" data-whatever="1">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h1 class="display-4">Desafío #1</h1>
+                            </div>
+                        </div><img class="img-fluid" id="desafio-1" src="assets/img/desafio1.png?h=3b0484c7598e20ffe21f354d4e88588b"></a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#" data-toggle="modal" data-target="#desafio" data-whatever="2">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h1 class="display-4">Desafío #2</h1>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/desafio2.png?h=b9acad3b17f35a25723879fb2f3023d7"></a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#" data-toggle="modal" data-target="#desafio" data-whatever="3">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h1 class="display-4">Desafío #3</h1>
+                            </div>
+                        </div><img class="img-fluid" src="assets/img/desafio3.png?h=b999c7ab1a636d1c31c4d1d0f7860b82"></a>
+                </div>
+                <div class="col-lg-6"></div>
+            </div>
+        </div>
+    </section>
+    <div class="btn-container"><a class="btn-fixed" data-toggle="modal" data-target="#nuevo-desafio"><span>+</span></a></div>
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="d-inline-block d-xl-flex justify-content-xl-center align-items-xl-center row">
+                <div class="col-xs-12"><img class="img-fluid" src="assets/img/tekinSloganLogo.png?h=f457842324d09c4da95cca8149d3eceb" width="60%"></div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade bd-example-modal-lg" role="dialog" tabindex="-1" id="desafio">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body"><img class=".img-fluid" style="max-width: 100%; height: auto;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" role="dialog" tabindex="-1" id="nuevo-desafio">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Agregar Fotografía</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body"><div class="container">
+    <div class="row">
+        <div class="col-lg-6 mx-auto">
+            <!-- Upload image input-->
+            <div class="input-group mb-3 bg-white shadow-sm">
+                <input id="upload" type="file" onchange="readURL(this);" class="form-control border-0">
+                <div class="input-group-append">
+                    <label for="upload" class="btn btn-light m-0 rounded-pill px-4"> <i class="fa fa-cloud-upload mr-2 text-muted"></i><small class="text-uppercase font-weight-bold text-muted">Buscar</small></label>
+                </div>
+            </div>
+            <div class="input-group mb-3 bg-white shadow-sm">
+                <input id="nombre-desafio" type="text" class="form-control border-0" placeholder="Nombre...">
+            </div>            
+
+            <!-- Uploaded image area-->
+            <p class="font-italic text-center">¿Es correcta la imagen cargada?</p>
+            <div class="image-area mt-4"><img id="imageResult" src="#" alt="" class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+        </div>
+    </div>
+</div></div>
+                <div class="modal-footer"><button class="btn btn-tekinapp" type="button" data-dismiss="modal">Cancelar</button><button class="btn btn-tekinapp" type="button" data-dismiss="modal">Guardar</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/script.min.js?h=657e16040ea3d7798f877381dd6f2220"></script>
+</body>
+
+</html>
